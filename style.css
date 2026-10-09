@@ -1,0 +1,40 @@
+body {
+  background-color: rgb(17, 0, 0);
+  margin: 10px;
+  padding: 15px;
+  border: 10px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+}
+.container {
+  background-color: hsl(0, 0%, 17%);
+  border: 10px solid black;
+  border-radius: 10px;
+
+  width: 70%;
+  height: 300px;
+}
+#inputField {
+  margin-top: 20px;
+  background-color: rgb(7, 31, 51);
+  border: 15px solid rgb(7, 31, 51);
+  border-radius: 7px;
+  color: white;
+}
+#inputField:hover {
+  background-color: rgb(76, 76, 243);
+}
+#preview {
+  background-color: rgb(0, 59, 95);
+  border: 10px solid rgb(0, 59, 95);
+  border-radius: 7px;
+}
+#preview:hover {
+  background-color: hsl(0, 0%, 24%);
+}
